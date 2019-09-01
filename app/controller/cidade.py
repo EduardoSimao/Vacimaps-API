@@ -37,4 +37,4 @@ def get_one_city(current_user, cidade_id):
     cidade['nome_cidade'] = info.nome_cidade
     cidade['uf_cidade'] = info.uf_cidade
 
-    return jsonify(usuario)
+    return jsonify(cidade)

@@ -24,7 +24,7 @@ Instruções para preparar o ambiente:
 
 ```bash
 GET - Retorna dados do usuário
-/usuario/<id_usuario>
+/usuario
 ```
 ```bash
 POST - Cadastra um usuário
@@ -41,8 +41,9 @@ PUT - Atualiza informações do usuário logado
 /usuário
 
 {
-    "nome": "Usuário",
-    "email": "usuario1@email.com",
+  "dt_nascimento": "1996-01-17",
+  "email": "teste@email.com",
+  "nome": "TestePUT"
 }
 ```
 ```bash
@@ -54,8 +55,8 @@ POST - Enviar o email pra redefinir senha
 }
 ```
 ```bash
-POST - Redefinir a senha
-/forgot_password
+PUT - Redefinir a senha
+/reset_password
 
 { 
     "senha": "novaSenha", 
