@@ -1,9 +1,9 @@
 alembic==1.0.8
 asn1crypto==0.24.0
 blinker==1.4
-cffi==1.12.2
+cffi==1.13.2
 Click==7.0
-cryptography==2.6.1
+cryptography==2.8
 Flask==1.0.2
 Flask-Cors==3.0.7
 Flask-Mail==0.9.1
@@ -15,8 +15,8 @@ itsdangerous==1.1.0
 Jinja2==2.10
 Mako==1.0.7
 MarkupSafe==1.1.1
-psycopg2==2.7.7
-psycopg2-binary==2.7.7
+psycopg2==2.8.4
+psycopg2-binary==2.8.4
 pycparser==2.19
 PyJWT==1.7.1
 python-dateutil==2.8.0
